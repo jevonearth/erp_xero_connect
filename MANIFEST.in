@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erp_xero_connect *.css
+recursive-include erp_xero_connect *.csv
+recursive-include erp_xero_connect *.html
+recursive-include erp_xero_connect *.ico
+recursive-include erp_xero_connect *.js
+recursive-include erp_xero_connect *.json
+recursive-include erp_xero_connect *.md
+recursive-include erp_xero_connect *.png
+recursive-include erp_xero_connect *.py
+recursive-include erp_xero_connect *.svg
+recursive-include erp_xero_connect *.txt
+recursive-exclude erp_xero_connect *.pyc
