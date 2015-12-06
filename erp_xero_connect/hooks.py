@@ -10,6 +10,8 @@ app_color = "#13b5ea"
 app_email = "ebjorsell@gmail.com"
 app_version = "0.0.1"
 
+fixtures = ['Custom Field']
+
 # Includes in <head>
 # ------------------
 

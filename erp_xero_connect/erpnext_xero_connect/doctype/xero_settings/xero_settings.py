@@ -20,7 +20,8 @@ class XeroSettings(Document):
         pass
 
     def validate_credentials(self):
-        if not(self.api_endpoint_url and self.consumer_key and self.consumer_secret and self.private_key):
-            frappe.msgprint(_('Please check your Xero API Credentials.'), raise_exception=1)
+        pass
+        #  if not(self.api_endpoint_url and self.consumer_key and self.consumer_secret and self.private_key):
+            #  frappe.msgprint(_('Please check your Xero API Credentials.'), raise_exception=1)
 
 
